@@ -1,0 +1,9 @@
+services:
+  web:
+    image: php:8.4-apache
+    container_name: AWEB2
+    ports:
+      - "8087:80"
+    volumes:
+      - ./:/var/www/html
+    restart: unless-stopped

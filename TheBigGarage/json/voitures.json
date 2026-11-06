@@ -1,0 +1,138 @@
+{
+  "concessionnaire": {
+    "nom": "TheBigGarage",
+    "ville": "Genève",
+    "vehicules": [
+      {
+        "id": "V001",
+        "marque": "Peugeot",
+        "modele": "208",
+        "annee": 2022,
+        "prix_chf": 18500,
+        "kilometrage": 25000,
+        "carburant": "Essence",
+        "boite_vitesse": "Manuelle",
+        "puissance_ch": 100,
+        "couleur": "Blanc",
+        "image": "image/208.png"
+      },
+      {
+        "id": "V002",
+        "marque": "Tesla",
+        "modele": "Model 3",
+        "annee": 2023,
+        "prix_chf": 39900,
+        "kilometrage": 15000,
+        "carburant": "Électrique",
+        "boite_vitesse": "Automatique",
+        "puissance_ch": 283,
+        "couleur": "Bleu",
+        "image": "image/tesla.png"
+      },
+      {
+        "id": "V003",
+        "marque": "Volkswagen",
+        "modele": "Golf",
+        "annee": 2020,
+        "prix_chf": 22000,
+        "kilometrage": 65000,
+        "carburant": "Hybride",
+        "boite_vitesse": "Automatique",
+        "puissance_ch": 150,
+        "couleur": "Gris",
+        "image": "image/golf.png"
+      },
+      {
+        "id": "V004",
+        "marque": "BMW",
+        "modele": "Série 3",
+        "annee": 2021,
+        "prix_chf": 34500,
+        "kilometrage": 48000,
+        "carburant": "Diesel",
+        "boite_vitesse": "Automatique",
+        "puissance_ch": 190,
+        "couleur": "Gris",
+        "image": "image/bmw.png"
+      },
+      {
+        "id": "V005",
+        "marque": "Audi",
+        "modele": "A1",
+        "annee": 2019,
+        "prix_chf": 16900,
+        "kilometrage": 55000,
+        "carburant": "Essence",
+        "boite_vitesse": "Manuelle",
+        "puissance_ch": 95,
+        "couleur": "gris/bleu",
+        "image": "image/Audi.png"
+      },
+      {
+        "id": "V006",
+        "marque": "Toyota",
+        "modele": "Yaris",
+        "annee": 2022,
+        "prix_chf": 21000,
+        "kilometrage": 18000,
+        "carburant": "Hybride",
+        "boite_vitesse": "Automatique",
+        "puissance_ch": 116,
+        "couleur": "Jaune moutarde",
+        "image": "image/toyota.png"
+      },
+      {
+        "id": "V007",
+        "marque": "Porsche",
+        "modele": "911 Carrera",
+        "annee": 2021,
+        "prix_chf": 115000,
+        "kilometrage": 12000,
+        "carburant": "Essence",
+        "boite_vitesse": "Automatique",
+        "puissance_ch": 385,
+        "couleur": "Noir mate",
+        "image": "image/porsche.png"
+      },
+      {
+        "id": "V008",
+        "marque": "Renault",
+        "modele": "Zoe",
+        "annee": 2020,
+        "prix_chf": 14200,
+        "kilometrage": 32000,
+        "carburant": "Électrique",
+        "boite_vitesse": "Automatique",
+        "puissance_ch": 135,
+        "couleur": "Gris",
+        "image": "image/renault-zoe.png"
+      },
+      {
+        "id": "V009",
+        "marque": "Mercedes-Benz",
+        "modele": "Classe A",
+        "annee": 2022,
+        "prix_chf": 31800,
+        "kilometrage": 29000,
+        "carburant": "Essence",
+        "boite_vitesse": "Automatique",
+        "puissance_ch": 163,
+        "couleur": "Blanc",
+        "image": "image/ClasseA.png"
+      },
+      {
+        "id": "V010",
+        "marque": "Dacia",
+        "modele": "Duster",
+        "annee": 2023,
+        "prix_chf": 19500,
+        "kilometrage": 8500,
+        "carburant": "GPL",
+        "boite_vitesse": "Manuelle",
+        "puissance_ch": 100,
+        "couleur": "Bleu",
+        "image": "image/DACIA.png"
+      }
+    ]
+  }
+}

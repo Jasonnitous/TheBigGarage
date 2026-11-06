@@ -1,0 +1,123 @@
+.site-header,
+.site-footer {
+    background: #1d1d1f;
+}
+
+.site-header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.site-header a {
+    color: #f0f0f0;
+}
+
+.site-header a[aria-current="page"] {
+    color: var(--pico-primary);
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.logo span {
+    color: var(--pico-primary);
+}
+
+.site-footer {
+    padding: 1rem 0;
+    color: #aaa;
+    text-align: center;
+}
+
+main.container {
+    padding-top: 2rem;
+    min-height: 70vh;
+}
+
+/* Bannière d'accueil */
+.hero {
+    padding: 3rem 1.5rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    color: #fff;
+    background: #1d1d1f;
+    border-radius: var(--pico-border-radius);
+}
+
+.hero h1 {
+    color: #fff;
+}
+
+.hero p {
+    color: #cfcfd4;
+}
+
+/* Grille de cartes des voitures */
+.grille {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 1.5rem;
+}
+
+.carte {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.carte h3 {
+    margin-bottom: .5rem;
+}
+
+.carte footer {
+    margin-top: auto;
+}
+
+.carte footer [role="button"] {
+    width: 100%;
+}
+
+.carte-image,
+.detail-image {
+    padding: 1rem;
+    background: linear-gradient(#ffffff, #e4e4e8);
+}
+
+.carte-image {
+    height: 180px;
+}
+
+.detail-image {
+    height: 340px;
+    margin: 0;
+    border-radius: var(--pico-border-radius);
+}
+
+.carte-image img,
+.detail-image img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.prix {
+    color: var(--pico-primary);
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.prix-grand {
+    font-size: 2rem;
+}
+
+.message {
+    padding: 1rem;
+    color: var(--pico-primary);
+    background: var(--pico-card-background-color);
+    border-left: 4px solid var(--pico-primary);
+}
